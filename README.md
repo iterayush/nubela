@@ -45,7 +45,8 @@ sleep(2)
 ```
 *The sleep() function suspends (waits) execution of the current thread for a given number of seconds.*  
   
-#### Our next move will be to fill login credentials automatically in LinkedIn sign in page. On inspecting the linkedin signin page we will get the XPATH of username and password. And we will use this to fill the details automatically as follows:
+#### Our next move will be to fill login credentials automatically in LinkedIn sign in page. On inspecting the linkedin signin page we will get the XPATH of username and password.
+![linkedin login page](https://i.ibb.co/CnjmQH8/link.png)And we will use this to fill the details automatically as follows:
 ```python
 #find the xpath to the username field and input username. Same with password
 username_input = driver.find_element(By.XPATH, '//input[@name="session_key"]')
