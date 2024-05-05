@@ -1,4 +1,4 @@
-# Tutorial - How to build your own LinkedIn Profile Scraper in 2022
+# LinkedIn Profile Scraper
 
 A Selenium LinkedIn scraper that loops through multiple pages and collects profile data.
 
